@@ -116,3 +116,68 @@ This system is suitable for small retail shops, warehouses, and inventory-based 
 ## Author  
 Wasim Akaram  
 
+
+
+# Library Management System  
+
+## Domain  
+Education / Institution  
+
+## Project Description  
+The Library Management System is a complete PL/SQL-based solution that automates book  
+management, member handling, book issue and return operations, fine calculation, and   
+overdue reporting. The system is designed to be robust, test-proof, and exam-ready.  
+
+## Features  
+- Member enrollment and management  
+- Book catalog management  
+- Book issue and return  
+- Availability check  
+- Fine calculation for late returns  
+- Automatic fine update  
+- Borrowing limit enforcement  
+- Overdue books report  
+- Member status validation  
+
+## Database Tables  
+- book_catalog  
+- library_members  
+- borrow_register  
+
+## PL/SQL Concepts Used  
+- Packages (core operations)  
+- Procedures (issue, return, enrollment)  
+- Functions (fine calculation, availability check)   
+- Triggers (auto fine update, inactive member block)   
+- Cursors (overdue report)   
+- Exception handling   
+- Sequences  
+- Constraints  
+
+## System Requirements  
+- Oracle Database XE 21c  
+- Oracle SQL Developer  
+- Windows OS  
+
+## How to Run  
+1. Enable server output using SET SERVEROUTPUT ON  
+2. Create tables and sequences  
+3. Compile functions, package, and triggers  
+4. Insert sample data  
+5. Execute package procedures to issue and return books  
+6. Run cursor block for overdue report  
+
+## Sample Operations  
+- Enroll new library members  
+- Add new books to catalog  
+- Issue books with availability check  
+- Return books with fine calculation  
+- Generate overdue report  
+
+## Use Case  
+This system is ideal for schools, colleges, and academic institutions to manage library operations efficiently.  
+
+## Author  
+Wasim Akaram  
+
+
